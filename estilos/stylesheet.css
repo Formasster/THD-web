@@ -30,12 +30,75 @@ header {
   text-shadow: 5px 5px black;
 }
 
+h2,
+h3 {
+  font-family: jaro;
+  color: #e03f09;
+  text-shadow: 5px 5px black;
+  margin-left: 30px;
+  font-size: 1.5rem;
+}
+
 .esp {
   color: white;
   font-family: "roboto mono";
   font-size: 15px;
   text-align: right;
   line-height: normal;
+}
+
+.pesp {
+  background-color: #c87528;
+  margin: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+  font-family: roboto mono;
+  margin-bottom: 30px;
+}
+.pesp2 {
+  background-color: #4a2c22;
+  margin: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+  font-family: roboto mono;
+  margin-bottom: 30px;
+}
+
+.pesp3 {
+  background-color: #c87528;
+  margin: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+  font-family: roboto mono;
+  margin-bottom: 10px;
+  width: 80%;
+  text-align: center;
+}
+
+.doble {
+  display: flex;
+}
+
+.robot {
+  height: 200px;
+  width: 400px;
+  border-radius: 5px;
+}
+figure {
+  text-align: center;
+}
+
+.lemur {
+  height: 200px;
+  border-radius: 80px;
+  margin-top: 30px;
+  margin-right: 80px;
 }
 
 nav a:hover {
@@ -51,6 +114,10 @@ nav {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+}
+
+.navthd {
+  margin-top: 80px;
 }
 
 .lupa {
@@ -121,6 +188,15 @@ aside {
   padding: 15px;
   color: white;
   font-family: "roboto mono";
+  line-height: 28px;
+}
+
+aside a {
+  text-decoration: none;
+}
+aside a:hover {
+  text-decoration: underline;
+  font-style: italic;
 }
 
 footer {
